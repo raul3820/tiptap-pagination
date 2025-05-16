@@ -103,7 +103,7 @@ const TiptapEditor = () => {
         <div className="w-full mb-1 flex flex-row gap-2 justify-between">
           <div className="inline-flex flex-row gap-2">
           <a
-            href="https://github.com/romik-dev/tiptap-pagination"
+            href="https://github.com/RomikMakavana/tiptap-pagination"
             target="_blank"
             rel="noopener noreferrer"
           >
