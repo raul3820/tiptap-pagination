@@ -20,9 +20,16 @@ import {
   Trash2,
   Heading1,
   Heading2,
+  Github,
 } from "lucide-react";
 import ListItem from "@tiptap/extension-list-item";
-import { PaginationPlus, TableCellPlus, TableHeaderPlus, TablePlus, TableRowPlus } from "tiptap-pagination-plus";
+import {
+  PaginationPlus,
+  TableCellPlus,
+  TableHeaderPlus,
+  TablePlus,
+  TableRowPlus,
+} from "tiptap-pagination-plus";
 import { Button } from "./button";
 import { editorContent } from "@/lib/editor-content";
 const TiptapEditor = () => {
@@ -93,25 +100,51 @@ const TiptapEditor = () => {
   return (
     <div className="">
       <div className="sticky top-0 z-[10] pt-8">
-        <div className="border rounded-lg shadow-sm p-2 bg-muted/90 flex flex-wrap gap-1">
+        <div className="w-full mb-1 flex flex-row gap-2 justify-between">
+          <div className="inline-flex flex-row gap-2">
+          <a
+            href="https://github.com/romik-dev/tiptap-pagination"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button variant="ghost" size="sm" className="!bg-black">
+              <Github className="h-4 w-4 text-white" />
+            </Button>
+          </a>
+          <iframe src="https://github.com/sponsors/RomikMakavana/button" title="Sponsor RomikMakavana" height="32" width="114" style={{border: '0', borderRadius: '6px'}}></iframe>
+          </div>
+          <a
+            href="https://www.buymeacoffee.com/romikmakavana"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
+              alt="Buy Me A Coffee"
+              style={{ height: "35px", width: "132px" }}
+            />
+          </a>
+          
+        </div>
+        <div className="border rounded-lg shadow-sm p-2 bg-muted/90 flex flex-wrap gap-1 backdrop-blur-md">
           <div className="flex flex-wrap gap-0.5">
-          <Button
-            variant="ghost"
-            size="sm"
-            onClick={() => editor.chain().focus().undo().run()}
-          >
-            <Undo className="h-4 w-4" />
-          </Button>
-          <Button
-            variant="ghost"
-            size="sm"
-            onClick={() => editor.chain().focus().redo().run()}
-          >
-            <Redo className="h-4 w-4" />
-          </Button>
+            <Button
+              variant="ghost"
+              size="sm"
+              onClick={() => editor.chain().focus().undo().run()}
+            >
+              <Undo className="h-4 w-4" />
+            </Button>
+            <Button
+              variant="ghost"
+              size="sm"
+              onClick={() => editor.chain().focus().redo().run()}
+            >
+              <Redo className="h-4 w-4" />
+            </Button>
 
-          {/* Table Controls */}
-          <div className="border-l mx-1" />
+            {/* Table Controls */}
+            <div className="border-l mx-1" />
             <Button
               variant="ghost"
               size="sm"
@@ -205,7 +238,7 @@ const TiptapEditor = () => {
             <Quote className="h-4 w-4" />
           </Button>
           <div className="border-l mx-1" />
-          
+
           <Button
             variant="ghost"
             size="sm"
