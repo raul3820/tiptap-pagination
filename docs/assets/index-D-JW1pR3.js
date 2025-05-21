@@ -284,8 +284,8 @@ img.ProseMirror-separator {
       .rm-with-pagination .rm-page-break.last-page .rm-page-header {
         display: none;
       }
-      .rm-with-pagination table tbody > tr > td {
-        width: calc(100% / var(--cell-count));
+      .rm-with-pagination table tr td,
+      .rm-with-pagination table tr th {
         word-break: break-all;
       }
       .rm-with-pagination table > tr {
@@ -299,6 +299,7 @@ img.ProseMirror-separator {
       }
       .rm-with-pagination table tbody{
         display: table;
+        max-height: 300px;
         overflow-y: auto;
       }
       .rm-with-pagination table tbody > tr{
