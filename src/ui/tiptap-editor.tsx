@@ -48,11 +48,18 @@ const TiptapEditor = () => {
         pageHeight: 842,
         pageGap: 20,
         pageBreakBackground: "hsl(var(--background))",
-        pageHeaderHeight: 50,
+        pageHeaderHeight: 25,
+        pageFooterHeight: 25,
         footerRight: "Made with ❤️ by Romik",
         footerLeft: "Page {page}",
         headerLeft: "Header Left",
         headerRight: "Header Right",
+        marginTop: 30,
+        marginBottom: 50,
+        marginLeft: 70,
+        marginRight: 70,
+        contentMarginTop: 30,
+        contentMarginBottom: 30,
       }),
     ],
     // content: editorContentLong,
@@ -60,7 +67,7 @@ const TiptapEditor = () => {
     editorProps: {
       attributes: {
         class:
-          "prose prose-sm sm:prose lg:prose-lg xl:prose-2xl mx-auto focus:outline-none min-h-[200px] px-10",
+          "prose prose-sm sm:prose lg:prose-lg xl:prose-2xl mx-auto focus:outline-none min-h-[200px]",
       },
     },
     onUpdate: ({ editor }) => {
