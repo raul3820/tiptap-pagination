@@ -6,6 +6,7 @@
   @apply text-gray-500;
 }
 
+.rm-with-pagination .breaker,
 .rm-with-pagination .rm-page-footer,
 .rm-with-pagination .rm-page-header {
   background-color: hsl(var(--background));
