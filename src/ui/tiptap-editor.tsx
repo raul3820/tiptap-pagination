@@ -21,17 +21,17 @@ import {
   Heading1,
   Heading2,
   Github,
+  Image as ImageIcon,
 } from "lucide-react";
 import ListItem from "@tiptap/extension-list-item";
-import {
-  PaginationPlus,
-  TableCellPlus,
-  TableHeaderPlus,
-  TablePlus,
-  TableRowPlus,
-} from "tiptap-pagination-plus";
+import { PaginationPlus } from "tiptap-pagination-plus";
+import { PaginationTable } from "tiptap-table-plus";
+import { ImagePlus } from "tiptap-image-plus";  
 import { Button } from "./button";
 import { editorContent } from "@/lib/editor-content";
+
+const { TablePlus, TableRowPlus, TableCellPlus, TableHeaderPlus } = PaginationTable;
+
 const TiptapEditor = () => {
   const editor = useEditor({
     extensions: [
@@ -44,6 +44,7 @@ const TiptapEditor = () => {
       TableCellPlus,
       TableHeaderPlus,
       ListItem,
+      ImagePlus,
       PaginationPlus.configure({
         pageHeight: 842,
         pageGap: 20,
@@ -85,6 +86,14 @@ const TiptapEditor = () => {
       .focus()
       .insertTable({ rows: 3, cols: 4, withHeaderRow: true })
       .run();
+  };
+
+  const insertImage = () => {
+    const url = window.prompt('URL')
+
+    if (url) {
+      editor.chain().focus().setImage({ src: url }).run()
+    }
   };
 
   const addColumnBefore = () => {
@@ -154,7 +163,7 @@ const TiptapEditor = () => {
             </Button>
 
             {/* Table Controls */}
-            <div className="border-l mx-1" />
+            <div className="border-l mx-0.5" />
             <Button
               variant="ghost"
               size="sm"
@@ -180,7 +189,7 @@ const TiptapEditor = () => {
               <Heading2 className="h-4 w-4" />
             </Button>
           </div>
-          <div className="border-l mx-1" />
+          <div className="border-l mx-0.5" />
           <Button
             variant="ghost"
             size="sm"
@@ -221,7 +230,7 @@ const TiptapEditor = () => {
           >
             <Code className="h-4 w-4" />
           </Button>
-          <div className="border-l mx-1" />
+          <div className="border-l mx-0.5" />
           <Button
             variant="ghost"
             size="sm"
@@ -238,7 +247,7 @@ const TiptapEditor = () => {
           >
             <ListOrdered className="h-4 w-4" />
           </Button>
-          <div className="border-l mx-1" />
+          <div className="border-l mx-0.5" />
           <Button
             variant="ghost"
             size="sm"
@@ -247,7 +256,27 @@ const TiptapEditor = () => {
           >
             <Quote className="h-4 w-4" />
           </Button>
-          <div className="border-l mx-1" />
+          <div className="border-l mx-0.5" />
+          <Button
+            variant="ghost"
+            size="sm"
+            onClick={insertImage}
+            className={editor.isActive("table") ? "bg-muted" : ""}
+          >
+            <ImageIcon className="h-4 w-4" />
+          </Button>
+          {
+            editor.isActive("imagePlus") && (
+              <Button
+                variant="ghost"
+                size="sm"
+                onClick={() => editor.chain().focus().deleteSelection().run()}
+              >
+                <Trash2 className="h-4 w-4" />
+              </Button>
+            )
+          }
+          <div className="border-l mx-0.5" />
 
           <Button
             variant="ghost"

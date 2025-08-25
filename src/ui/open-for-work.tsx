@@ -11,7 +11,7 @@ export const OpenForWork = () => {
         transform: "translateX(50%)",
       }}
     >
-      <div className="flex flex-row items-center justify-between gap-2">
+      <div className="flex flex-row items-center justify-between gap-2" style={{width: "max-content"}}>
         <div>
           <h1 className="text-sm">
             {" "}
