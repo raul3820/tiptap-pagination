@@ -1,14 +1,11 @@
 import { OpenForWork } from "@/ui/open-for-work";
-import TiptapEditor from "@/ui/tiptap-editor";
-import { useMemo } from "react";
+import TiptapEditor from "@/components/image-plus/tiptap-editor";
 import { useSearchParams } from "react-router-dom";
+import { useMemo } from "react";
 
-function Home() {
-  // Get query params
+function ImagePlus() {
   const [searchParams] = useSearchParams();
-
   const onlyEditor = useMemo(() => searchParams.has("frame"), [searchParams]);
-
   return (
     <div className="max-w-4xl mx-auto px-2 relative">
       <TiptapEditor onlyEditor={onlyEditor} />
@@ -17,4 +14,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default ImagePlus;
