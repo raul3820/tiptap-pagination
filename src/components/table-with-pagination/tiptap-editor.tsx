@@ -19,7 +19,11 @@ const TiptapEditor = ({onlyEditor}: {onlyEditor: boolean}) => {
       Underline,
       TextStyle,
       Color,
-      TablePlus,
+      TablePlus.configure({
+        resizeHandleStyle: {
+          background: "gray",
+        },
+      }),
       TableRowPlus,
       TableCellPlus,
       TableHeaderPlus,

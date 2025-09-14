@@ -1,1333 +1,1330 @@
 export const editorContent = {
-  "type": "doc",
-  "content": [
-      {
-          "type": "heading",
-          "attrs": {
-              "level": 1
-          },
-          "content": [
-              {
-                  "type": "text",
-                  "text": "Tiptap Table Plus With Pagination"
-              }
-          ]
-      },
-      {
-          "type": "table",
-          "content": [
-              {
-                  "type": "tableRow",
-                  "content": [
-                      {
-                          "type": "tableHeader",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "Company "
-                                      }
-                                  ]
-                              }
-                          ]
-                      },
-                      {
-                          "type": "tableHeader",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "Contact"
-                                      }
-                                  ]
-                              }
-                          ]
-                      },
-                      {
-                          "type": "tableHeader",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "Country"
-                                      }
-                                  ]
-                              }
-                          ]
-                      }
-                  ]
-              },
-              {
-                  "type": "tableRow",
-                  "content": [
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "Alfreds Futterkiste"
-                                      }
-                                  ]
-                              }
-                          ]
-                      },
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "Maria Anders"
-                                      }
-                                  ]
-                              }
-                          ]
-                      },
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "Germany"
-                                      }
-                                  ]
-                              }
-                          ]
-                      }
-                  ]
-              },
-              {
-                  "type": "tableRow",
-                  "content": [
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "Centro comercial Moctezuma"
-                                      }
-                                  ]
-                              }
-                          ]
-                      },
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "Francisco Chang"
-                                      }
-                                  ]
-                              }
-                          ]
-                      },
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "Mexico"
-                                      }
-                                  ]
-                              }
-                          ]
-                      }
-                  ]
-              },
-              {
-                  "type": "tableRow",
-                  "content": [
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "Ernst Handel"
-                                      }
-                                  ]
-                              }
-                          ]
-                      },
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "Roland Mendel"
-                                      }
-                                  ]
-                              }
-                          ]
-                      },
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "Austria"
-                                      }
-                                  ]
-                              }
-                          ]
-                      }
-                  ]
-              },
-              {
-                  "type": "tableRow",
-                  "content": [
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "Island Trading"
-                                      }
-                                  ]
-                              }
-                          ]
-                      },
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "Helen Bennett"
-                                      }
-                                  ]
-                              }
-                          ]
-                      },
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "UK"
-                                      }
-                                  ]
-                              }
-                          ]
-                      }
-                  ]
-              },
-              {
-                  "type": "tableRow",
-                  "content": [
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "Laughing Bacchus Winecellars"
-                                      }
-                                  ]
-                              }
-                          ]
-                      },
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "Yoshi Tannamuri"
-                                      }
-                                  ]
-                              }
-                          ]
-                      },
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "Canada"
-                                      }
-                                  ]
-                              }
-                          ]
-                      }
-                  ]
-              },
-              {
-                  "type": "tableRow",
-                  "content": [
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "Magazzini Alimentari Riuniti"
-                                      }
-                                  ]
-                              }
-                          ]
-                      },
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "Giovanni Rovelli"
-                                      }
-                                  ]
-                              }
-                          ]
-                      },
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "Italy"
-                                      }
-                                  ]
-                              }
-                          ]
-                      }
-                  ]
-              },
-              {
-                  "type": "tableRow",
-                  "content": [
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "Paris spécialités"
-                                      }
-                                  ]
-                              }
-                          ]
-                      },
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "Marie Bertrand"
-                                      }
-                                  ]
-                              }
-                          ]
-                      },
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "France"
-                                      }
-                                  ]
-                              }
-                          ]
-                      }
-                  ]
-              },
-              {
-                  "type": "tableRow",
-                  "content": [
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "Simons Bistro"
-                                      }
-                                  ]
-                              }
-                          ]
-                      },
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "Jytte Petersen"
-                                      }
-                                  ]
-                              }
-                          ]
-                      },
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "Denmark"
-                                      }
-                                  ]
-                              }
-                          ]
-                      }
-                  ]
-              },
-              {
-                  "type": "tableRow",
-                  "content": [
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "Toms Spezialitäten"
-                                      }
-                                  ]
-                              }
-                          ]
-                      },
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "Karl Jablonski"
-                                      }
-                                  ]
-                              }
-                          ]
-                      },
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "Germany"
-                                      }
-                                  ]
-                              }
-                          ]
-                      }
-                  ]
-              },
-              {
-                  "type": "tableRow",
-                  "content": [
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "Vins et alcools Chevalier"
-                                      }
-                                  ]
-                              }
-                          ]
-                      },
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "Paul Henriot"
-                                      }
-                                  ]
-                              }
-                          ]
-                      },
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "France"
-                                      }
-                                  ]
-                              }
-                          ]
-                      }
-                  ]
-              },
-              {
-                  "type": "tableRow",
-                  "content": [
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "Hanari Carnes"
-                                      }
-                                  ]
-                              }
-                          ]
-                      },
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "Mario Pontes"
-                                      }
-                                  ]
-                              }
-                          ]
-                      },
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "Brazil"
-                                      }
-                                  ]
-                              }
-                          ]
-                      }
-                  ]
-              },
-              {
-                  "type": "tableRow",
-                  "content": [
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "Queen Cozinha"
-                                      }
-                                  ]
-                              }
-                          ]
-                      },
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "Lúcia Carvalho"
-                                      }
-                                  ]
-                              }
-                          ]
-                      },
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "Brazil"
-                                      }
-                                  ]
-                              }
-                          ]
-                      }
-                  ]
-              },
-              {
-                  "type": "tableRow",
-                  "content": [
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "Richter Supermarkt"
-                                      }
-                                  ]
-                              }
-                          ]
-                      },
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "Michael Holz"
-                                      }
-                                  ]
-                              }
-                          ]
-                      },
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "Switzerland"
-                                      }
-                                  ]
-                              }
-                          ]
-                      }
-                  ]
-              },
-              {
-                  "type": "tableRow",
-                  "content": [
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "Save-a-lot Markets"
-                                      }
-                                  ]
-                              }
-                          ]
-                      },
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "Jose Pavarotti"
-                                      }
-                                  ]
-                              }
-                          ]
-                      },
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "USA"
-                                      }
-                                  ]
-                              }
-                          ]
-                      }
-                  ]
-              },
-              {
-                  "type": "tableRow",
-                  "content": [
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "Frankenversand"
-                                      }
-                                  ]
-                              }
-                          ]
-                      },
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "Peter Franken"
-                                      }
-                                  ]
-                              }
-                          ]
-                      },
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "Germany"
-                                      }
-                                  ]
-                              }
-                          ]
-                      }
-                  ]
-              },
-              {
-                  "type": "tableRow",
-                  "content": [
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "North/South"
-                                      }
-                                  ]
-                              }
-                          ]
-                      },
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "Simon Crowther"
-                                      }
-                                  ]
-                              }
-                          ]
-                      },
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "UK"
-                                      }
-                                  ]
-                              }
-                          ]
-                      }
-                  ]
-              },
-              {
-                  "type": "tableRow",
-                  "content": [
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "Folk och fä HB"
-                                      }
-                                  ]
-                              }
-                          ]
-                      },
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "Maria Larsson"
-                                      }
-                                  ]
-                              }
-                          ]
-                      },
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "Sweden"
-                                      }
-                                  ]
-                              }
-                          ]
-                      }
-                  ]
-              },
-              {
-                  "type": "tableRow",
-                  "content": [
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "Océano Atlántico Ltda."
-                                      }
-                                  ]
-                              }
-                          ]
-                      },
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "Yvonne Moncada"
-                                      }
-                                  ]
-                              }
-                          ]
-                      },
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "Argentina"
-                                      }
-                                  ]
-                              }
-                          ]
-                      }
-                  ]
-              },
-              {
-                  "type": "tableRow",
-                  "content": [
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "Eastern Connection"
-                                      }
-                                  ]
-                              }
-                          ]
-                      },
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "Ann Devon"
-                                      }
-                                  ]
-                              }
-                          ]
-                      },
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "UK"
-                                      }
-                                  ]
-                              }
-                          ]
-                      }
-                  ]
-              },
-              {
-                  "type": "tableRow",
-                  "content": [
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "Great Lakes Food Market"
-                                      }
-                                  ]
-                              }
-                          ]
-                      },
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "Howard Snyder"
-                                      }
-                                  ]
-                              }
-                          ]
-                      },
-                      {
-                          "type": "tableCell",
-                          "attrs": {
-                              "colspan": 1,
-                              "rowspan": 1,
-                              "colwidth": null
-                          },
-                          "content": [
-                              {
-                                  "type": "paragraph",
-                                  "content": [
-                                      {
-                                          "type": "text",
-                                          "text": "USA"
-                                      }
-                                  ]
-                              }
-                          ]
-                      }
-                  ]
-              }
-          ]
-      },
-      {
-          "type": "paragraph",
-          "content": [
-              {
-                  "type": "text",
-                  "text": "Table is split into 2 pages........."
-              }
-          ]
-      },
-  ]
-};
+    "type": "doc",
+    "content": [
+        {
+            "type": "heading",
+            "attrs": {
+                "level": 1
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "text": "Tiptap Table Plus With Pagination"
+                }
+            ]
+        },
+        {
+            "type": "table",
+            "attrs": {
+                "columnSize": "9.1,39.41,21.79,29.7"
+            },
+            "content": [
+                {
+                    "type": "tableRow",
+                    "content": [
+                        {
+                            "type": "tableHeader",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "ID"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableHeader",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "Name"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableHeader",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "Role"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableHeader",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "Email"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "tableRow",
+                    "content": [
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "Alice Johnson"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "Developer"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "alice@example.com"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "tableRow",
+                    "content": [
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "Bob Smith"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "Designer"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "bob@example.com"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "tableRow",
+                    "content": [
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "Charlie Brown"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "Manager"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "charlie@example.com"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "tableRow",
+                    "content": [
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "Diana White"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "QA"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "diana@example.com"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "tableRow",
+                    "content": [
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "Eric Miller"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "Developer"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "eric@example.com"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "tableRow",
+                    "content": [
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "Fiona Davis"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "HR"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "fiona@example.com"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "tableRow",
+                    "content": [
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "7"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "George Wilson"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "Support"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "george@example.com"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "tableRow",
+                    "content": [
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "8"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "Hannah Moore"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "Developer"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "hannah@example.com"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "tableRow",
+                    "content": [
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "9"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "Ian Taylor"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "Designer"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "ian@example.com"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "tableRow",
+                    "content": [
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "10"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "Julia Anderson"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "Manager"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "julia@example.com"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "tableRow",
+                    "content": [
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "11"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "Kevin Thomas"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "Developer"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "kevin@example.com"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "tableRow",
+                    "content": [
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "12"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "Laura Scott"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "QA"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "laura@example.com"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "tableRow",
+                    "content": [
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "13"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "Mike Hall"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "Support"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "mike@example.com"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "tableRow",
+                    "content": [
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "14"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "Nina Clark"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "HR"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "nina@example.com"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "tableRow",
+                    "content": [
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "15"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "Oscar Lewis"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "Developer"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableCell",
+                            "attrs": {
+                                "colspan": 1,
+                                "rowspan": 1,
+                                "colwidth": null
+                            },
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "oscar@example.com"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "Table is split into 2 pages........."
+                }
+            ]
+        },
+    ]
+  };
