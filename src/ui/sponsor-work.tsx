@@ -1,4 +1,4 @@
-import { Github } from "lucide-react"
+import { ExternalLink, Github } from "lucide-react"
 import { Button } from "./button"
 
 export const SponsorWork = () => {  
@@ -16,6 +16,20 @@ export const SponsorWork = () => {
           </a>
           <iframe src="https://github.com/sponsors/RomikMakavana/button" title="Sponsor RomikMakavana" height="32" width="114" style={{border: '0', borderRadius: '6px'}}></iframe>
           </div>
+          <a
+          href="https://romikmakavana.me/tiptap"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Button
+            variant="ghost"
+            size="sm"
+            className=" !bg-black !text-white !hover:bg-white !hover:text-black"
+          >
+              Documentation &nbsp;
+            <ExternalLink className="h-4 w-4 mr-1" />
+          </Button>
+        </a>
           <a
             href="https://www.buymeacoffee.com/romikmakavana"
             target="_blank"

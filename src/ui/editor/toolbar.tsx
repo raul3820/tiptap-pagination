@@ -13,7 +13,7 @@ import {
   List,
   Quote,
   TableIcon,
-  Copy,
+  Copy
 } from "lucide-react";
 import SponsorWork from "../sponsor-work";
 import { Button } from "../button";
