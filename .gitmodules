@@ -1,0 +1,3 @@
+[submodule "packages/tiptap-pagination-plus"]
+	path = packages/tiptap-pagination-plus
+	url = https://github.com/raul3820/tiptap-pagination-plus
