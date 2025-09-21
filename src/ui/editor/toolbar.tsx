@@ -68,7 +68,7 @@ export const Toolbar = ({
     editor.chain().focus().duplicateColumn().run();
   };
   const duplicateRow = () => {
-    editor.chain().focus().duplicateRow(true).run(); // @ts-ignore
+    editor.chain().focus().duplicateRow(true).run(); // @ts-expect-error: duplicateRow method signature expects optional parameter but implementation requires boolean
   };
 
   return (
