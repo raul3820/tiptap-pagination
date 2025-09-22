@@ -4,12 +4,12 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "concurrently \"cd packages/tiptap-pagination-plus && pnpm watch\" \"vite\" --names \"submodule,vite\" --prefix-colors \"cyan,magenta\"",
-    "build": "node scripts/check-types.mjs && oxlint --format unix --ignore-pattern='docs/**/*' --ignore-pattern='dist/**/*' --ignore-pattern='dist-ssr/**/*' --ignore-pattern='build/**/*' --ignore-pattern='out/**/*' --ignore-pattern='public/**/*' --ignore-pattern='**/*.min.js' --ignore-pattern='**/*.min.css' src && tsc -p tsconfig.app.json --noEmit && vite build",
+    "dev": "concurrently \"cd packages/tiptap-pagination-plus && pnpm watch\" \"npx vite\" --names \"submodule,vite\" --prefix-colors \"cyan,magenta\"",
+    "build": "node scripts/check-types.mjs && oxlint --format unix --ignore-pattern='docs/**/*' --ignore-pattern='dist/**/*' --ignore-pattern='dist-ssr/**/*' --ignore-pattern='build/**/*' --ignore-pattern='out/**/*' --ignore-pattern='public/**/*' --ignore-pattern='**/*.min.js' --ignore-pattern='**/*.min.css' src && tsc -p tsconfig.app.json --noEmit && npx vite build",
     "prebuild": "node scripts/write-version.mjs",
     "lint": "node scripts/check-types.mjs && oxlint --format unix --ignore-pattern='docs/**/*' --ignore-pattern='dist/**/*' --ignore-pattern='dist-ssr/**/*' --ignore-pattern='build/**/*' --ignore-pattern='out/**/*' --ignore-pattern='public/**/*' --ignore-pattern='**/*.min.js' --ignore-pattern='**/*.min.css' && tsc -p tsconfig.app.json --noEmit --incremental",
     "lint:fast": "node scripts/check-types.mjs && oxlint --format unix --ignore-pattern='docs/**/*' --ignore-pattern='dist/**/*' --ignore-pattern='dist-ssr/**/*' --ignore-pattern='build/**/*' --ignore-pattern='out/**/*' --ignore-pattern='public/**/*' --ignore-pattern='**/*.min.js' --ignore-pattern='**/*.min.css'",
-    "preview": "vite preview",
+    "preview": "npx vite preview",
     "build:404": "npm run build && cp docs/index.html docs/404.html && node scripts/replace-gtag.js"
   },
   "dependencies": {
