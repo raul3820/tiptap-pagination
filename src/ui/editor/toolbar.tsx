@@ -68,7 +68,7 @@ export const Toolbar = ({
     editor.chain().focus().duplicateColumn().run();
   };
   const duplicateRow = () => {
-    editor.chain().focus().duplicateRow(true).run(); // @ts-expect-error: duplicateRow method signature expects optional parameter but implementation requires boolean
+    editor.chain().focus().duplicateRow(true).run();
   };
 
   return (
@@ -81,6 +81,7 @@ export const Toolbar = ({
               variant="ghost"
               size="sm"
               onClick={() => editor.chain().focus().undo().run()}
+              disabled={!editor.can().undo()}
             >
               <Undo className="h-4 w-4" />
             </Button>
@@ -90,6 +91,7 @@ export const Toolbar = ({
               variant="ghost"
               size="sm"
               onClick={() => editor.chain().focus().redo().run()}
+              disabled={!editor.can().redo()}
             >
               <Redo className="h-4 w-4" />
             </Button>

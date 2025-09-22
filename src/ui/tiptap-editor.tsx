@@ -3,9 +3,8 @@
 import { useEditor, EditorContent } from "@tiptap/react";
 import StarterKit from "@tiptap/starter-kit";
 import Underline from "@tiptap/extension-underline";
-import TextStyle from "@tiptap/extension-text-style";
+import { TextStyle } from "@tiptap/extension-text-style";
 import Color from "@tiptap/extension-color";
-import ListItem from "@tiptap/extension-list-item";
 import { PaginationTable } from "tiptap-table-plus";
 import { PaginationPlus } from "tiptap-pagination-plus";
 import { ImagePlus } from "tiptap-image-plus";
@@ -26,7 +25,6 @@ const TiptapEditor = ({onlyEditor}: {onlyEditor: boolean}) => {
       TableRowPlus,
       TableCellPlus,
       TableHeaderPlus,
-      ListItem,
       ImagePlus.configure({
         containerStyle: {
           background:
