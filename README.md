@@ -90,7 +90,22 @@ Key points for table pagination:
 - Table pagination with header preservation
 - Responsive design
 - Automatic page height calculation
-- Support for nested content
+ - Support for nested content
+
+## Development
+
+This project includes a local package `tiptap-pagination-plus` in the `packages/` directory.
+
+### Development
+```bash
+pnpm dev
+```
+This automatically builds the local package and starts the development server.
+
+### Manual Build (if needed)
+```bash
+cd packages/tiptap-pagination-plus && pnpm build
+```
 
 ## License
 

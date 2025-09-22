@@ -12,10 +12,10 @@ export default defineConfig(({ mode }) => {
     build: {
       outDir: "docs",
     },
-    resolve: {
-      alias: {
-        "@": path.resolve(__dirname, "./src"),
-      },
-    },
+     resolve: {
+       alias: {
+         "@": path.resolve(__dirname, "./src"),
+       },
+     },
   }
 })
