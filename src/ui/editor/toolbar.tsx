@@ -13,7 +13,8 @@ import {
   List,
   Quote,
   TableIcon,
-  Copy
+  Copy,
+  SquareSplitVertical
 } from "lucide-react";
 import SponsorWork from "../sponsor-work";
 import { Button } from "../button";
@@ -296,6 +297,26 @@ export const Toolbar = ({
                 <Trash2 className="h-4 w-4" />
               </Button>
             )}
+          </>
+        )}
+        {optionsList.includes("manualPageBreak") && (
+          <>
+            <div className="border-l mx-0.5" />
+            <Button
+              variant="ghost"
+              size="sm"
+              onClick={() => {
+                if (editor.isActive("manualPageBreak")) {
+                  editor.chain().focus().deleteSelection().run();
+                } else {
+                  editor.commands.insertContent({ type: "manualPageBreak" });
+                }
+              }}
+              isActive={editor.isActive("manualPageBreak")}
+              title="Toggle Manual Page Break (Ctrl+Enter)"
+            >
+              <SquareSplitVertical className="h-4 w-4" />
+            </Button>
           </>
         )}
       </div>

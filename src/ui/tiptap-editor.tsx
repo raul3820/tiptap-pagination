@@ -6,7 +6,7 @@ import Underline from "@tiptap/extension-underline";
 import { TextStyle } from "@tiptap/extension-text-style";
 import Color from "@tiptap/extension-color";
 import { PaginationTable } from "tiptap-table-plus";
-import { PaginationPlus } from "tiptap-pagination-plus";
+import { PaginationPlus, ManualPageBreak } from "tiptap-pagination-plus";
 import { ImagePlus } from "tiptap-image-plus";
 import { editorContent } from "@/lib/editor-content";
 import { Toolbar } from "./editor/toolbar";
@@ -50,6 +50,7 @@ const TiptapEditor = ({onlyEditor}: {onlyEditor: boolean}) => {
         contentMarginTop: 30,
         contentMarginBottom: 30,
       }),
+      ManualPageBreak,
     ],
     // content: editorContentLong,
     content: editorContent,
@@ -86,6 +87,7 @@ const TiptapEditor = ({onlyEditor}: {onlyEditor: boolean}) => {
           "table",
           "duplicate-table",
           "blockquote",
+          "manualPageBreak",
         ]}
         editor={editor}
       />
