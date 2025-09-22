@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
 import fs from 'fs';
-import path from 'path';
 
 const files = ['docs/index.html', 'docs/404.html'];
 
